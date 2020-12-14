@@ -25,7 +25,7 @@ Vue.use(Photoswipe)
 Vue.use(VueAnalytics, {
   id: process.env.VUE_APP_GA
 })
-Vue.component('ImgInputer', ImgInputer);
+Vue.component('ImgInputer', ImgInputer)
 
 new Vue({
   router,
