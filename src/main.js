@@ -23,7 +23,9 @@ Vue.use(vueAxios, axios)
 Vue.use(VueSweetalert2)
 Vue.use(Photoswipe)
 Vue.use(VueGtag, {
-  id: process.env.VUE_APP_GA
+  config: {
+    id: process.env.VUE_APP_GA
+  }
 })
 Vue.component('ImgInputer', ImgInputer)
 
